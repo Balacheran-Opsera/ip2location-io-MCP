@@ -10,7 +10,7 @@ The setup also use uv, which can be install by following [the guide](https://mod
 
 # Setup
 
-To use this MCP server with Claude Desktop, just add the following to your `claude_desktop_config.json`:
+To use this MCP server with Claude Desktop, download the repository to your local, and add the following to your `claude_desktop_config.json`:
 
 ```json
 {
