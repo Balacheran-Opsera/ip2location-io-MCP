@@ -2,6 +2,10 @@
 
 This is a simple Model Context Protocol (MCP) server implementation for IP2Location.io API. It will return geolocation information for an IP address.
 
+<a href="https://glama.ai/mcp/servers/@ip2location/mcp-ip2location-io">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@ip2location/mcp-ip2location-io/badge" />
+</a>
+
 # Requirement
 
 This MCP server supports to query without an API key, with a limitation of 1,000 queries per day. You can also [sign up](https://www.ip2location.io/sign-up) for a free API key and enjoy up to 50,000 queries per month.
