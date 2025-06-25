@@ -21,7 +21,7 @@ To use this MCP server with Claude Desktop, download the repository to your loca
         "--directory",
         "/path/to/ip2locationio/src",
         "run",
-        "ip2locationio.py"
+        "server.py"
       ],
       "env": {
         "IP2LOCATION_API_KEY": "<YOUR API key HERE>"
