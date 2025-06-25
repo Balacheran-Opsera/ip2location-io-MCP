@@ -30,7 +30,37 @@ async def make_request(url: str, params: dict[str, str]) -> dict[str, Any] | Non
 
 @mcp.tool()
 async def get_geolocation(ip: str) -> str:
-    """Fetch geolocation for the given IP address."""
+    """
+    Fetch geolocation for the given IP address.
+    
+    It helps users to retrieve detailed information such as country, region, city, latitude, longitude, ZIP code, time zone, ASN, and proxy information for any IPv4 or IPv6 address
+
+    Args:
+        ip: The IP address to analyze (IPv4 or IPv6).
+
+    Returns:
+        A JSON string result includes:
+        
+        Location & Geography:
+        Country, region, district, city, ZIP code, latitude & longitude, time zone.
+        
+        Network & Connectivity
+        ASN (Autonomous System Number), ISP (Internet Service Provider), domain, net speed, IDD code, area code, address type, usage type.
+        
+        Mobile Information
+        MNC (Mobile Network Code), MCC (Mobile Country Code), Mobile Brand.
+        
+        Currency & Language
+        currency code, currency name, currency symbol, language code, language name.
+        
+        Proxy & Security
+        proxy type, last seen, threat level/type, proxy provider, fraud score.
+        
+        Others
+        IAB category, weather, elevation, population and more.
+        
+        Note that some information may only available in paid plan. Learn more on this in https://www.ip2location.io/pricing.
+    """
     params = {"ip": ip}
     api_key = get_api_key()
     if api_key:
