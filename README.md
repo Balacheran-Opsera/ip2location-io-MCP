@@ -19,7 +19,7 @@ To use this MCP server with Claude Desktop, download the repository to your loca
       "command": "uv",
       "args": [
         "--directory",
-        "/path/to/ip2locationio",
+        "/path/to/ip2locationio/src",
         "run",
         "ip2locationio.py"
       ],
