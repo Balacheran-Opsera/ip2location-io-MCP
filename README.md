@@ -51,9 +51,9 @@ Restart the Claude Desktop after save the changes, and you shall see it pops out
 
 Just enter your query about the IP in a chat in Claude Desktop. Some of the example query will be:
 
-- Where is the location of <IP>?
-- Where is <IP> located?
-- What is the coordinate of <IP>?
+- Where is the location of (IP)?
+- Where is (IP) located?
+- What is the coordinate of (IP)?
 
 For instance, below is the result of the IP 8.8.8.8:
 
