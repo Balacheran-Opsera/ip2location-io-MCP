@@ -47,9 +47,9 @@ Follow the steps to use this MCP server with Claude Desktop:
   }
 }
 ```
-Remember to replace the `/path/to/ip2locationio`  path with your actual path to IP2Location.io MCP server in local.
- 6. To get your API key, just [login](https://www.ip2location.io/log-in) to your dashboard and get it from there. Replaced the `<YOUR API key HERE>` in above with your actual API key.
- 7. Restart the Claude Desktop after save the changes, and you should see it appear in the `Search and tools` menu.
+ 6. Remember to replace the `/path/to/ip2locationio`  path with your actual path to IP2Location.io MCP server in local.
+ 7. To get your API key, just [login](https://www.ip2location.io/log-in) to your dashboard and get it from there. Replaced the `<YOUR API key HERE>` in above with your actual API key.
+ 8. Restart the Claude Desktop after save the changes, and you should see it appear in the `Search and tools` menu.
 
 # Usage
 
