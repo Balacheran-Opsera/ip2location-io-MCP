@@ -22,7 +22,12 @@ The setup also use `uv`, which can be install by following [the guide](https://m
 
 # Setup
 
-To use this MCP server with Claude Desktop, download the repository to your local, and add the following to your `claude_desktop_config.json`:
+Follow the steps to use this MCP server with Claude Desktop:
+ 1. Download the repository to your local.
+ 2. Setup the `uv` package manager, you can once again refer to [the guide](https://modelcontextprotocol.io/quickstart/server#set-up-your-environment) to do so.
+ 3. Make sure you have installed the Claude Desktop, if you haven't, kindly download from [here](https://claude.ai/download) for Windows and MacOS users, or follow [this guide](https://modelcontextprotocol.io/quickstart/client) for Linux user.
+ 4. Open the `claude_desktop_config.json` in your choice of editor, if you do not having one yet, follow [this guide](https://modelcontextprotocol.io/quickstart/server#testing-your-server-with-claude-for-desktop) to create one.
+ 5. Add the following to your `claude_desktop_config.json`:
 
 ```json
 {
@@ -42,10 +47,9 @@ To use this MCP server with Claude Desktop, download the repository to your loca
   }
 }
 ```
-
-To get your API key, just [login](https://www.ip2location.io/log-in) to your dashboard and get it from there.
-
-Restart the Claude Desktop after save the changes, and you shall see it pops out in the `Search and tools` menu.
+Remember to replace the `/path/to/ip2locationio`  path with your actual path to IP2Location.io MCP server in local.
+6. To get your API key, just [login](https://www.ip2location.io/log-in) to your dashboard and get it from there. Replaced the `<YOUR API key HERE>` in above with your actual API key.
+7. Restart the Claude Desktop after save the changes, and you should see it appear in the `Search and tools` menu.
 
 # Usage
 
