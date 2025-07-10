@@ -8,7 +8,7 @@
   "keywords": ["IP", "geolocation", "IP locator", "python", "IP info"],
   "license": "MIT",
   "author": {
-    "name": "IP2Location.io"
+    "name": "IP2Location.io",
     "email": "support@ip2location.io",
     "url": "https://github.com/ip2location"
   },
@@ -45,7 +45,7 @@
     "runtimes": {
       "python": ">=3.8,<4.0"
     }
-  }
+  },
   "user_config": {
     "ip2locationioapi_key": {
       "type": "string",
