@@ -1,4 +1,4 @@
-from typing import Any
+from typing import Any, Dict
 import httpx
 from mcp.server.fastmcp import FastMCP
 import os
@@ -29,7 +29,7 @@ async def make_request(url: str, params: dict[str, str]) -> dict[str, Any] | Non
             return None
 
 @mcp.tool()
-async def get_geolocation(ip: str) -> str:
+async def get_geolocation(ip: str) -> Dict[str, Any] | str:
     """
     Fetch geolocation for the given IP address.
     
