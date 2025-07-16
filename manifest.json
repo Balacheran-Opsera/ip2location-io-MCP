@@ -21,7 +21,7 @@
     "type": "python",
     "entry_point": "src/server.py",
     "mcp_config": {
-      "command": "ux",
+      "command": "uv",
       "args": [
             "--directory",
             "${__dirname}/src",
